@@ -11,7 +11,7 @@ ADD . /app
 RUN pip install -r requirements.txt
 
 # 使端口 80 可供此容器外的环境使用
-EXPOSE 8080
+EXPOSE 80
 
 # 定义环境变量
 ENV NAME World
